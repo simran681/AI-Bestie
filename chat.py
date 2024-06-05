@@ -42,7 +42,7 @@ llm = ChatOpenAI(model="gpt-3.5-turbo", openai_api_key="API_KEY", temperature=0)
 # llm = ChatGroq(temperature=0,groq_api_key="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", model_name="llama3-70b-8192")
 #model=llama3-8b-8192
 
-session_id="11"
+session_id="10"
 # Set up MongoDB for storing chat history
 chat_history = MongoDBChatMessageHistory(
     connection_string="mongodb+srv://chandanisimran51:test123@aibestie.a0o3bmw.mongodb.net/?retryWrites=true&w=majority&appName=AIbestie",
