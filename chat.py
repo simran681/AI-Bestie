@@ -38,7 +38,7 @@ PROMPT = PromptTemplate(
 )
 
 # Initialize the ChatGroq LLM
-llm = ChatOpenAI(model="gpt-3.5-turbo", openai_api_key="sk-proj-XfL8yhjKcoK9NQg6eARZT3BlbkFJ4bRjrLJYUi7kyGT7cRJo", temperature=0)
+llm = ChatOpenAI(model="gpt-3.5-turbo", openai_api_key="API_KEY", temperature=0)
 # llm = ChatGroq(temperature=0,groq_api_key="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", model_name="llama3-70b-8192")
 #model=llama3-8b-8192
 
