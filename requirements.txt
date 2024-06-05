@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+langchain 
+pymongo 
+certifi 
+langchain_community 
+langchain_groq
+langchain_mongodb
+openai
